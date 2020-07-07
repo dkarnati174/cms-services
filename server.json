@@ -1,0 +1,37 @@
+{
+    "_id" : ObjectId("5efe1f42ef7903f9736d71fb"),
+    "name" : "ADK",
+    "appCode" : "ADK",
+    "path" : "/adk",
+    "owner" : "adk-admin",
+    "metadataFields" : [ 
+        {
+            "name" : "textField",
+            "isRequired" : true,
+            "type" : "text"
+        }, 
+        {
+            "name" : "listField",
+            "isRequired" : false,
+            "type" : "array"
+        }, 
+        {
+            "name" : "numberField",
+            "isRequired" : true,
+            "type" : "long"
+        }
+    ],
+    "roles" : [ 
+        {
+            "name" : "all_app_service_provider_read_role",
+            "appCode" : "APPIGW",
+            "permissions" : []
+        }, 
+        {
+            "name" : "all_app_service_provider_write_role",
+            "appCode" : "APPIGW",
+            "permissions" : []
+        }
+    ],
+    "_class" : "com.fanniemae.cms.cmsportal.models.Applications"
+}
